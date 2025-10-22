@@ -1,0 +1,58 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+header nav, footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+footer{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+    color: aliceblue;
+    padding: 1px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: rgb(88, 86, 86);
+}
+#bien{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    flex: auto;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.proye{
+    display: flex;
+    flex-direction: column;
+}
+.proye li{
+    flex: 1;
+    width: 200px;
+}
+
+form{
+    text-align: center;
+}
+form input{
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+}
